@@ -1,0 +1,33 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/asset-agent-core",
+  "crates/asset-agent-api",
+  "crates/asset-agent-opcua",
+  "crates/asset-agent-memory",
+  "crates/asset-agent-llm",
+  "crates/asset-agent-cli",
+]
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+rust-version = "1.95"
+
+[workspace.dependencies]
+anyhow = "1"
+async-opcua = "0.18.0"
+async-opcua-client = "0.18.0"
+async-trait = "0.1"
+axum = "0.7"
+chrono = { version = "0.4", features = ["serde"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rusqlite = { version = "0.32", features = ["bundled"] }
+sha2 = "0.10"
+thiserror = "1"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "signal"] }
+toml = "0.8"
+tower-http = { version = "0.6", features = ["cors", "trace"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }

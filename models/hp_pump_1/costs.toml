@@ -1,0 +1,18 @@
+cost_version = "hp_pump_1_costs_v0.1.0"
+failure_penalty = 100000.0
+operating_penalty_per_damage = 12000.0
+
+[maintenance_cost]
+defer = 0.0
+inspect = 1500.0
+reduce_load = 500.0
+repair = 18000.0
+replace = 60000.0
+
+[downtime_cost]
+defer = 0.0
+inspect = 2500.0
+reduce_load = 7000.0
+repair = 22000.0
+replace = 50000.0
+

@@ -1,0 +1,6 @@
+learning_version = "hp_pump_1_learning_v0.1.0"
+checklist_alpha = 1.0
+checklist_beta = 2.0
+threshold_proposal_min_confirmed_cases = 3
+threshold_proposal_status = "requires_review"
+

@@ -1,0 +1,7 @@
+suction_pressure_mode = "bar_gauge"
+atmospheric_pressure_bar = 1.01325
+gravity_m_s2 = 9.80665
+water_density_kg_m3 = 1000.0
+npshr_method = "source_design_point"
+material_flow_deviation_fraction = 0.12
+

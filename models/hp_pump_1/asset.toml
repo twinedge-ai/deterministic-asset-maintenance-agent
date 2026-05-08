@@ -1,0 +1,19 @@
+asset_id = "hp_pump_1"
+display_name = "HP Pump 1 (RO Train 1 duty)"
+asset_type = "hp_pump"
+parent_area = "hp_pumping"
+fault_focus = "low_npsh_cavitation"
+
+source_specs_path = "references/hp_pump_1/hp_pump_1_source_specs.json"
+pump_curve_path = "data/pump_curves/hp_pump_1.json"
+
+manufacturer = "Synthetic Pump Vendor"
+pump_model = "Synthetic BB3 Multistage 8x15-4"
+service = "High-pressure feed pump demo"
+source_document = "AssetPilot synthetic demo profile"
+source_url = "references/hp_pump_1/hp_pump_1_source_specs.json"
+
+preferred_liquid_temperature_node = "node:intake_basin.raw_temperature"
+fallback_liquid_temperature_c = 20.0
+temperature_plausible_range_c = [0.0, 45.0]
+temperature_policy = "prefer_live_intake_temperature_else_documented_high_end"

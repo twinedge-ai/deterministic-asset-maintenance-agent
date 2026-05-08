@@ -1,0 +1,34 @@
+[expected_design_specs]
+rated_flow_m3h = 1012.0
+rated_head_m = 628.0
+rated_speed_rpm = 2783.0
+npshr_m = 19.0
+efficiency_percent = 86.5
+power_kw = 2062.0
+specific_gravity = 1.03
+design_suction_pressure_barg = 4.0
+max_discharge_pressure_barg = 89.2
+min_flow_m3h = 600.0
+max_flow_m3h = 1215.0
+min_speed_rpm = 2500.7
+pump_weight_kg = 4200.0
+baseplate_weight_kg = 2500.0
+stages = 4
+
+[opcua_spec_nodes]
+rated_flow_m3h = "node:hp_pump_1.spec_rated_flow"
+rated_head_m = "node:hp_pump_1.spec_rated_head"
+rated_speed_rpm = "node:hp_pump_1.spec_rated_speed_rpm"
+npshr_m = "node:hp_pump_1.spec_npshr"
+efficiency_percent = "node:hp_pump_1.spec_efficiency"
+power_kw = "node:hp_pump_1.spec_power_kw"
+specific_gravity = "node:hp_pump_1.spec_specific_gravity"
+design_suction_pressure_barg = "node:hp_pump_1.spec_design_suction_pressure"
+max_discharge_pressure_barg = "node:hp_pump_1.spec_max_discharge_pressure"
+min_flow_m3h = "node:hp_pump_1.spec_min_flow"
+max_flow_m3h = "node:hp_pump_1.spec_max_flow"
+min_speed_rpm = "node:hp_pump_1.spec_min_speed_rpm"
+pump_weight_kg = "node:hp_pump_1.spec_pump_weight"
+baseplate_weight_kg = "node:hp_pump_1.spec_baseplate_weight"
+stages = "node:hp_pump_1.spec_stages"
+

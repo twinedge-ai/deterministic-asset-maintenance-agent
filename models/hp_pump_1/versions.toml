@@ -1,0 +1,4 @@
+model_version = "hp_pump_1_demo_model_v0.1.0"
+policy_version = "hp_pump_1_policy_v0.1.0"
+residual_version = "no_residual_training_v0"
+source_bundle_profile = "synthetic_demo_v0.1.0"

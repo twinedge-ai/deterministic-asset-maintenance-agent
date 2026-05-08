@@ -1,0 +1,18 @@
+{
+  "action_confidence": 0.100303,
+  "explanation_fallback_used": true,
+  "explanation_guard_passed": true,
+  "explanation_source": "template",
+  "explanation_text": "hp_pump_1 has HIGH suspected low-NPSH cavitation risk. The deterministic engine estimated NPSH margin -2.270041 m, cavitation evidence score 0.734556, 7-day failure probability 1.000000, and RUL 26.025517 h. Recommended action: replace because 7-day failure probability meets or exceeds the critical threshold. Lowest configured counterfactual action: defer; include it in review even when the safety policy is more conservative. This is not a guaranteed diagnosis and does not authorize autonomous plant commands. Human inspection should verify suction conditions, liquid temperature, pump curve assumptions, and sensor health. Limitations: Liquid temperature uses the documented high-end fallback rather than a live pump-inlet measurement.",
+  "failure_probability_7d": 1.0,
+  "lowest_cost_action": "defer",
+  "npsh_margin_m": -2.270041,
+  "recommended_action": "replace",
+  "recommended_checklist": [
+    "Check suction strainer for blockage.",
+    "Check inlet valve position.",
+    "Check suction pipe restriction or blockage."
+  ],
+  "risk_level": "HIGH",
+  "rul_hours": 26.025517
+}

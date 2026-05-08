@@ -1,0 +1,23 @@
+{
+  "asset_id": "hp_pump_1",
+  "source": "references/hp_pump_1/hp_pump_1_source_specs.json",
+  "curve_policy": "single_source_design_point_no_fabricated_interpolation",
+  "units": {
+    "flow": "m3/h",
+    "npshr": "m",
+    "speed": "rpm"
+  },
+  "points": [
+    {
+      "flow_m3h": 1012.0,
+      "npshr_m": 19.0,
+      "speed_rpm": 2783.0
+    }
+  ],
+  "valid_flow_range_m3h": [600.0, 1215.0],
+  "fallback_node": "node:hp_pump_1.spec_npshr",
+  "notes": [
+    "The public demo profile provides one synthetic NPSHr design point, not a certified curve table.",
+    "Do not use this file for operational decisions. Replace it with an authorized vendor curve for real assets."
+  ]
+}

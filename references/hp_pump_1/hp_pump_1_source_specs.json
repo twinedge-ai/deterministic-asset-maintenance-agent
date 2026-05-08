@@ -1,0 +1,47 @@
+{
+  "asset_id": "hp_pump_1",
+  "demo_data_policy": "synthetic_demo_profile_not_for_operational_use",
+  "created_for": "AssetPilot open-source deterministic maintenance demo",
+  "production_requirement": "replace_with_authorized_vendor_curve_nameplate_and_plant_historian_mapping_before_real_asset_use",
+  "pump": {
+    "manufacturer": "Synthetic Pump Vendor",
+    "family_model": "Synthetic BB3 Multistage 8x15-4",
+    "service": "High-pressure feed pump demo",
+    "pump_type": "Horizontal centrifugal multistage",
+    "stages": 4
+  },
+  "design_values": {
+    "rated_flow_m3h": 1012.0,
+    "rated_head_m": 628.0,
+    "rated_speed_rpm": 2783.0,
+    "npshr_design_point_m": 19.0,
+    "efficiency_percent": 86.5,
+    "power_kw": 2062.0,
+    "specific_gravity": 1.03,
+    "design_suction_pressure_barg": 4.0,
+    "max_discharge_pressure_barg": 89.2,
+    "min_flow_m3h": 600.0,
+    "max_flow_m3h": 1215.0,
+    "min_speed_rpm": 2500.7,
+    "pump_weight_kg": 4200.0,
+    "baseplate_can_weight_kg": 2500.0,
+    "liquid_temperature_range_c": [10.0, 20.0]
+  },
+  "opcua_spec_nodes": {
+    "node:hp_pump_1.spec_rated_flow": 1012.0,
+    "node:hp_pump_1.spec_rated_head": 628.0,
+    "node:hp_pump_1.spec_rated_speed_rpm": 2783.0,
+    "node:hp_pump_1.spec_npshr": 19.0,
+    "node:hp_pump_1.spec_efficiency": 86.5,
+    "node:hp_pump_1.spec_power_kw": 2062.0,
+    "node:hp_pump_1.spec_specific_gravity": 1.03,
+    "node:hp_pump_1.spec_design_suction_pressure": 4.0,
+    "node:hp_pump_1.spec_max_discharge_pressure": 89.2,
+    "node:hp_pump_1.spec_min_flow": 600.0,
+    "node:hp_pump_1.spec_max_flow": 1215.0,
+    "node:hp_pump_1.spec_min_speed_rpm": 2500.7,
+    "node:hp_pump_1.spec_pump_weight": 4200.0,
+    "node:hp_pump_1.spec_baseplate_weight": 2500.0,
+    "node:hp_pump_1.spec_stages": 4
+  }
+}

@@ -1,0 +1,23 @@
+policy_version = "hp_pump_1_policy_v0.1.0"
+
+npsh_warning_margin_m = 3.0
+high_npsh_margin_m = 0.20
+medium_npsh_margin_m = 0.80
+
+vibration_normal_mms = 4.0
+vibration_high_mms = 8.5
+suction_low_bar = 1.0
+current_normal_a = 700.0
+current_high_a = 850.0
+bearing_temp_normal_c = 70.0
+bearing_temp_high_c = 85.0
+flow_instability_warning_m3h = 35.0
+current_instability_warning_a = 20.0
+
+high_score = 0.70
+medium_score = 0.40
+confidence_min = 0.05
+
+rho_low = 0.20
+rho_high = 0.55
+rho_critical = 0.85

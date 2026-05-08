@@ -1,0 +1,10 @@
+belief_version = "hp_pump_1_belief_v0.1.0"
+grid_step = 0.01
+observation_sigma = 0.18
+base_damage_rate = 0.001
+cavitation_damage_gain = 0.010
+vibration_damage_gain = 0.004
+thermal_damage_gain = 0.002
+learned_residual_bias = 0.0
+tick_hours = 1.0
+
